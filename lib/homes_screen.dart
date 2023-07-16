@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         color: Colors.transparent,
                         borderRadius: BorderRadius.circular(30),
                         border: Border.all(
-                          color: generations[index] == 'GENERATION 1'
+                          color: generations[index] == 'GENERATION'
                               ? const Color(0xff62C29D)
                               : const Color(0xff62C29D),
                           width: 2,
@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Text(
                           generations[index],
                           style: TextStyle(
-                            color: generations[index] == 'GENERATION 1'
+                            color: generations[index] == 'GENERATION'
                                 ? const Color(0xff62C29D)
                                 : const Color(0xff62C29D),
                           ),

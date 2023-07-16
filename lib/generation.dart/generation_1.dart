@@ -177,9 +177,10 @@ class _GenerationOneState extends State<GenerationOne> {
                                         },
                                         child: Card(
                                           shape: RoundedRectangleBorder(
-                                              borderRadius:
-                                                  BorderRadius.circular(30)),
-                                          elevation: 0,
+                                            borderRadius:
+                                                BorderRadius.circular(30),
+                                          ),
+                                          elevation: 1,
                                           color: Colors.white,
                                           child: Padding(
                                             padding: EdgeInsets.only(
